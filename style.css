@@ -1,0 +1,135 @@
+body {
+	width: 100%;
+	background-color:  white;
+}
+
+
+h1 {
+	text-align: center;
+	font-size: 30px;
+}
+
+
+
+/* Style the word "Balance" */
+h2 {
+	margin-right: -20px;
+	left: -20px;
+	padding: 20px;
+	margin-top: -20PX;
+	background-color: grey;
+	margin-left: 60%;
+	display: flex;
+    font-size: 30px;
+    color: #333; /* Text color for "Balance" */
+}
+
+/* Style the word "Balance" */
+h3 {
+	margin-right: -20px;
+	left: -20px;
+	padding: 20px;
+	margin-top: -20PX;
+	background-color: red;
+	margin-left: 60%;
+	display: flex;
+    font-size: 30px;
+    color: #333; /* Text color for "Balance" */
+}
+
+/* Style the word "Balance" */
+h4 {
+	margin-right: -20px;
+	left: -20px;
+	padding: 20px;
+	margin-top: -20PX;
+	background-color: green;
+	margin-left: 60%;
+	display: flex;
+    font-size: 30px;
+    color: #333; /* Text color for "Balance" */
+}
+
+/* Style the balance value */
+.balance-value {
+    font-size: 18px;
+    color: #ea4f4c; /* Text color for the value */
+}
+
+
+
+
+
+
+
+
+
+/* Style the balance sections */
+.balance-section {
+    flex-direction: column;
+    margin-top:  90px;
+    margin-left: 50px;
+    width: 100%;
+    background-color: #f0f0f0; /* Background color of each section */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 10px solid #ccc; /* Add a border between sections */
+}
+
+
+
+
+
+
+/* Media query for screens 992px and above (desktop) */
+@media (min-width: 992px) {
+  .balance-section {
+    width: 55%; /* Makes all three sections take equal space on a single row */
+    float: none;
+  }
+}
+
+
+/* Media query for screens between 768px and 991px (tablet) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .balance-section {
+
+    width: 40%; /* Makes the first two sections take equal space */
+    float: left;
+    
+  }
+
+}
+
+
+/* Media query for screens 992px and above (desktop) */
+@media (min-width: 992px) {
+  .balance-section {
+  	margin: 50px;
+    width: 20%; /* Makes all three sections take equal space on a single row */
+    float: left;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style the balance content */
+.balance-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
